@@ -1,0 +1,39 @@
+nav
+    width: 100%
+    +flex-center
+    position: fixed
+    top: 0
+    left: 0
+    background-color: white
+    
+
+    .nav-inner-container
+        width: 100%
+        max-width: 1200px
+        padding: 0 20px
+        height: 60px
+        +flex-between
+
+        .brand-link
+            text-decoration: none
+
+            h5
+                padding: 0
+                margin: 0
+                font-style: italic
+                font-size: 24px
+                color: black
+
+    .nav-menu-container
+        list-style-type: none
+        +flex-between
+
+        a
+            text-decoration: none
+            color: black
+            margin: 0 20px
+            +flex-center
+            width: 100px
+
+            &:hover
+                font-weight: 600

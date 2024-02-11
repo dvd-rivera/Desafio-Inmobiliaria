@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,900;1,300&display=swap");
+.column-sm-50 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 576px) {
+  .column-sm-50 {
+    width: 49%;
+  }
+}
+
+.section {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.wi-100 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h2.title {
+  border-bottom: 2px solid #642efa;
+  border-left: 2px solid #642efa;
+  border-bottom-left-radius: 8px;
+  padding: 0 32px 4px 8px;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 60px 0 0 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+nav .nav-inner-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav .nav-inner-container .brand-link {
+  text-decoration: none;
+}
+nav .nav-inner-container .brand-link h5 {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+}
+nav .nav-menu-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav .nav-menu-container a {
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100px;
+}
+nav .nav-menu-container a:hover {
+  font-weight: 600;
+}
+
+.hero-section {
+  width: 100%;
+  max-width: 1200px;
+  background-image: url("https://lowpostactive.com/wp-content/uploads/2019/08/Redes-sociales-inmobiliaria.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+@media (min-width: 374px) {
+  .hero-section {
+    background-position: center;
+  }
+}
+@media (min-width: 576px) {
+  .hero-section {
+    background-position: center -50px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section {
+    background-position: center -250px;
+  }
+}
+.hero-section h2 {
+  margin: 0;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section-sale {
+  width: 100%;
+  max-width: 1200px;
+  background-image: url("https://www.toppropiedades.cl/imagenes/b_c495u1437co90cb6f.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+@media (min-width: 374px) {
+  .hero-section-sale {
+    background-position: center;
+  }
+}
+@media (min-width: 576px) {
+  .hero-section-sale {
+    background-position: center -50px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section-sale {
+    background-position: center -250px;
+  }
+}
+.hero-section-sale h2 {
+  margin: 0;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section-rent {
+  width: 100%;
+  max-width: 1200px;
+  background-image: url("https://http2.mlstatic.com/D_NQ_NP_2X_929662-MLM72320208636_102023-O.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+@media (min-width: 374px) {
+  .hero-section-rent {
+    background-position: center;
+  }
+}
+@media (min-width: 576px) {
+  .hero-section-rent {
+    background-position: center -50px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section-rent {
+    background-position: center -250px;
+  }
+}
+.hero-section-rent h2 {
+  margin: 0;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.cards-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cards-container .card {
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
+.cards-container .card img {
+  width: 100%;
+}
+.cards-container .card .card-header {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+}
+.cards-container .card .card-body {
+  padding: 12px 24px;
+  text-align: left;
+}
+.cards-container .card .card-body .name {
+  margin: 4px 0;
+  font-size: 20px;
+}
+.cards-container .card .card-body p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.cards-container .card .card-body p i {
+  width: 20px;
+}
+.cards-container .card .card-body .not {
+  color: red;
+}
+
+.btn-container {
+  margin-top: 40px;
+}
+.btn-container button {
+  border: none;
+  background-color: #642efa;
+  border-radius: 12px;
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+}
+.btn-container button:hover {
+  font-weight: 600;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #642efa;
+  color: white;
+  margin-top: 60px;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */

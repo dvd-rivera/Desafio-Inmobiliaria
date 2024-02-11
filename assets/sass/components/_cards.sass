@@ -1,0 +1,56 @@
+.cards-container
+    width: 100%
+    +flex-center
+    gap: 20px
+
+    .card
+        max-width: 300px
+        text-align: left
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.2)
+        border-radius: 12px
+        align-self: stretch
+        +flex-column
+        justify-content: flex-start
+
+        img
+            width: 100%
+
+        .card-header
+            border-top-left-radius: 12px
+            border-top-right-radius: 12px
+            overflow: hidden
+
+
+        .card-body
+            padding: 12px 24px
+            text-align: left
+
+            .name
+                margin: 4px 0
+                font-size: 20px
+
+            p
+                font-size: 14px
+                font-weight: 600
+
+                i
+                    width: 20px
+
+            .not
+                color: red
+                
+
+.btn-container
+    margin-top: 40px
+
+    button
+        border: none
+        background-color: #642efa
+        border-radius: 12px
+        padding: 12px 24px
+        color: white
+        cursor: pointer
+
+        &:hover
+            font-weight: 600
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2)

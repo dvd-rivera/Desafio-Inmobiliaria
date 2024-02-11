@@ -1,0 +1,127 @@
+{
+    "propiedades_alquiler": [
+      {
+        "nombre": "Acogedor apartamento en el centro",
+        "src": "https://picsum.photos/300/200?random=1",
+        "descripcion": "Amplio apartamento con excelente ubicación en el corazón de la ciudad.",
+        "ubicacion": "La Florida, Santiago",
+        "habitaciones": 2,
+        "costo": "60.000",
+        "smoke": false,
+        "pets": true
+      },
+      {
+        "nombre": "Casa con jardín y piscina",
+        "src": "https://picsum.photos/300/200?random=2",
+        "descripcion": "Hermosa casa de dos pisos con jardín y piscina privada.",
+        "ubicacion": "Las Condes, Santiago",
+        "habitaciones": 4,
+        "costo": "150.000",
+        "smoke": true,
+        "pets": true
+      },
+      {
+        "nombre": "Departamento amoblado",
+        "src": "https://picsum.photos/300/200?random=3",
+        "descripcion": "Departamento completamente amoblado con vista panorámica.",
+        "ubicacion": "Providencia, Santiago",
+        "habitaciones": 1,
+        "costo": "45.000",
+        "smoke": false,
+        "pets": false
+      },
+      {
+        "nombre": "Loft moderno en Bellavista",
+        "src": "https://picsum.photos/300/200?random=4",
+        "descripcion": "Espacio tipo loft con diseño contemporáneo y acceso a terraza.",
+        "ubicacion": "Bellavista, Santiago",
+        "habitaciones": 1,
+        "costo": "55.000",
+        "smoke": true,
+        "pets": true
+      },
+      {
+        "nombre": "Acogedor apartamento en el centro",
+        "src": "https://picsum.photos/300/200?random=5",
+        "descripcion": "Amplio apartamento con excelente ubicación en el corazón de la ciudad.",
+        "ubicacion": "La Florida, Santiago",
+        "habitaciones": 2,
+        "costo": "60.000",
+        "smoke": false,
+        "pets": true
+      },
+      {
+        "nombre": "Casa con jardín y piscina",
+        "src": "https://picsum.photos/300/200?random=6",
+        "descripcion": "Hermosa casa de dos pisos con jardín y piscina privada.",
+        "ubicacion": "Las Condes, Santiago",
+        "habitaciones": 4,
+        "costo": "150.000",
+        "smoke": true,
+        "pets": true
+      }
+    ],
+    "propiedades_venta": [
+      {
+        "nombre": "Casa colonial en el campo",
+        "src": "https://picsum.photos/300/200?random=7",
+        "descripcion": "Antigua casa colonial con amplio terreno y árboles frutales.",
+        "ubicacion": "Curacaví, Región Metropolitana",
+        "habitaciones": 3,
+        "costo": "250.000.000",
+        "smoke": false,
+        "pets": true
+      },
+      {
+        "nombre": "Terreno con vista al mar",
+        "src": "https://picsum.photos/300/200?random=8",
+        "descripcion": "Parcela con impresionante vista al océano, ideal para construir tu casa de ensueño.",
+        "ubicacion": "Algarrobo, Región de Valparaíso",
+        "habitaciones": 0,
+        "costo": "80.000.000",
+        "smoke": false,
+        "pets": false
+      },
+      {
+        "nombre": "Apartamento céntrico",
+        "src": "https://picsum.photos/300/200?random=9",
+        "descripcion": "Moderno apartamento en pleno centro de la ciudad, cerca de todos los servicios.",
+        "ubicacion": "Santiago, Región Metropolitana",
+        "habitaciones": 2,
+        "costo": "150.000.000",
+        "smoke": true,
+        "pets": true
+      },
+      {
+        "nombre": "Cabaña en la montaña",
+        "src": "https://picsum.photos/300/200?random=10",
+        "descripcion": "Acogedora cabaña rodeada de naturaleza, perfecta para escapadas de fin de semana.",
+        "ubicacion": "Farellones, Región Metropolitana",
+        "habitaciones": 1,
+        "costo": "120.000.000",
+        "smoke": false,
+        "pets": true
+      },
+      {
+        "nombre": "Penthouse con terraza",
+        "src": "https://picsum.photos/300/200?random=11",
+        "descripcion": "Elegante penthouse con amplia terraza y vistas panorámicas de la ciudad.",
+        "ubicacion": "Las Condes, Región Metropolitana",
+        "habitaciones": 4,
+        "costo": "350.000.000",
+        "smoke": true,
+        "pets": false
+      },
+      {
+        "nombre": "Apartamento céntrico",
+        "src": "https://picsum.photos/300/200?random=12",
+        "descripcion": "Moderno apartamento en pleno centro de la ciudad, cerca de todos los servicios.",
+        "ubicacion": "Santiago, Región Metropolitana",
+        "habitaciones": 2,
+        "costo": "150.000.000",
+        "smoke": true,
+        "pets": true
+      }
+    ]
+  }
+  
